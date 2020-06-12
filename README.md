@@ -20,7 +20,7 @@ yarn add  vue-select-img
 ## 用法
 
 
-```
+``` html
 <div id="app">
     <div class="avatar-warp">
         <img
@@ -33,6 +33,10 @@ yarn add  vue-select-img
     </div>
 </div>
 
+```
+
+
+``` css
 <style>
 .avatar-warp{
     width: 100px;
@@ -59,9 +63,9 @@ yarn add  vue-select-img
 }
 ```
 
-```
 
-<script>
+```javascript
+
 import SelectImage from "./components/SelectImage";
 export default {
     name: "App",
@@ -79,7 +83,6 @@ export default {
         }
     }
 };
-</script>
 ```
 
 ## 参数
