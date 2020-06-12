@@ -17,9 +17,14 @@ class SelectImage {
     }
 
     fileToDataURL() {
-        const { file, quality } = this.options;
+        const {type, file, quality } = this.options;
+        
         this.fileName = file.name.split( "." )[0];
         return new Promise( ( resolve, reject ) => {
+            if( !quality&&type === "file" ){
+                resolve( file );
+                return;
+            }
             const reader = new FileReader();
             reader.readAsDataURL( file );
             reader.onload = res => {

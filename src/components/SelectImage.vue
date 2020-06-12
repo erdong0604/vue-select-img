@@ -79,6 +79,7 @@ export default {
                  * **/
                 const uploadImage = new SelectImage( {
                     file,
+                    type: this.type,
                     quality: this.quality
                 } );
                 uploadImage.fileToDataURL().then( res => {

@@ -1,6 +1,6 @@
 {
   "name": "vue-select-img",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "erdong",
   "license": "MIT",
   "description": "Vue.js选择图片组件",
@@ -21,7 +21,6 @@
     "upload-image",
     "image"
   ],
-  
   "bugs": {
     "url": "https://github.com/erdong0604/vue-select-img/issues"
   },
