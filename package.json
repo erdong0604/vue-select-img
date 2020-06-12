@@ -1,0 +1,52 @@
+{
+  "name": "vue-select-img",
+  "version": "0.0.2",
+  "author": "erdong",
+  "license": "MIT",
+  "description": "Vue.js选择图片组件",
+  "main": "./src/index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdong0604/vue-select-img.git"
+  },
+  "keywords": [
+    "select-image",
+    "vue-select-image",
+    "vue-upload-image",
+    "upload-image",
+    "image"
+  ],
+  "bugs": {
+    "url": "https://github.com/erdong0604/vue-select-img/issues"
+  },
+  "homepage": "https://github.com/erdong0604/vue-select-img#readme",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "exif-js": "^2.3.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.0",
+    "@vue/cli-plugin-eslint": "^4.4.0",
+    "@vue/cli-service": "^4.4.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
